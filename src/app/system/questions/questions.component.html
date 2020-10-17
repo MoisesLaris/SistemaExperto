@@ -1,24 +1,38 @@
 <div *ngIf="formloaded && !sendClicked" class="mt-4">
-    <h1 class="display-4">Sistema Experto</h1>
-    <div class="jumbotron" *ngFor="let pregunta of questions; let i = index">
-        <p class="lead">{{pregunta.title}}. {{pregunta.sentence}}</p>
-        <hr class="my-4">
-        <ng-container *ngFor="let opcion of pregunta.options">
-            <div class="form-check form-check-inline">
-                <input [formControl]="formArray.controls[i]" class="form-check-input" type="radio" [name]="i" [value]="opcion.methodologies">
-                <label class="form-check-label" for="inlineRadio1">{{opcion.sentence}}</label>
+    <div class="row">
+        <div class="col-8">
+            <h1 class="display-4">Sistema Experto</h1>
+            <div class="jumbotron" *ngFor="let pregunta of questions; let i = index">
+                <p class="lead">{{pregunta.title}}. {{pregunta.sentence}}</p>
+                <hr class="my-4">
+                <ng-container *ngFor="let opcion of pregunta.options">
+                    <div class="form-check form-check-inline">
+                        <input [formControl]="formArray.controls[i]" class="form-check-input" type="radio" [name]="i" [value]="opcion.methodologies" (change)="onChangeInput(opcion.methodologies)">
+                        <label class="form-check-label" for="inlineRadio1">{{opcion.sentence}}</label>
+                    </div>
+                </ng-container>
             </div>
-        </ng-container>
+            <button class="btn btn-primary btn-lg my-3" (click)="fnCalculate()">Enviar</button>
+        </div>
+        <div class="col-4">
+            <div style="position: fixed;">
+                <h3 class="mt-2">Posibles metodologias</h3>
+                <div *ngFor="let item of hardCode">
+                    <div class="alert alert-primary" role="alert">
+                        {{item}}
+                    </div><br>
+                </div>
+            </div>
+        </div>
     </div>
-    <button class="btn btn-primary btn-lg my-3" (click)="fnCalculate()">Enviar</button>
+
 </div>
 <div *ngIf="sendClicked">
-    <h1 class="display-4">Metodologías de desarrollo para usted</h1>
+    <h1 class="display-4 text-center mt-3">Metodologías de desarrollo para usted</h1>
     <div class="jumbotron bg-dark text-white m-5" *ngFor="let method of arrMethodologiesNice">
-        <h1 class="display-4">{{method}}</h1>
-        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+        <h1 class="display-4">{{detail[method].nombre}}</h1>
+        <p class="lead" [innerHTML]="detail[method].caracteristicas"></p>
         <hr class="my-4">
-        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
         <p class="lead">
             <button class="btn btn-primary" type="button" (click)="navigateDetail(method)">Ver más</button>
         </p>
