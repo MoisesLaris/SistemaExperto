@@ -18,9 +18,9 @@
             <div style="position: fixed;">
                 <h3 class="mt-2">Posibles metodologias</h3>
                 <div *ngFor="let item of hardCode">
-                    <div class="alert alert-primary" role="alert">
-                        {{item}}
-                    </div><br>
+                    <div *ngIf="detail[item]" class="alert alert-primary" role="alert">
+                        {{detail[item].nombre}}
+                    </div><br *ngIf="detail[item]">
                 </div>
             </div>
         </div>
@@ -29,13 +29,16 @@
 </div>
 <div *ngIf="sendClicked">
     <h1 class="display-4 text-center mt-3">Metodologías de desarrollo para usted</h1>
-    <div class="jumbotron bg-dark text-white m-5" *ngFor="let method of arrMethodologiesNice">
-        <h1 class="display-4">{{detail[method].nombre}}</h1>
-        <p class="lead" [innerHTML]="detail[method].caracteristicas"></p>
-        <hr class="my-4">
-        <p class="lead">
-            <button class="btn btn-primary" type="button" (click)="navigateDetail(method)">Ver más</button>
-        </p>
+    <div *ngFor="let method of arrMethodologiesNice">
+        <div class="jumbotron bg-dark text-white m-5" *ngIf="detail[method]">
+            <h1 class="display-4">{{detail[method].nombre}}</h1>
+            <p class="lead" [innerHTML]="detail[method].caracteristicas"></p>
+            <hr class="my-4">
+            <p class="lead">
+                <button class="btn btn-primary" type="button" (click)="navigateDetail(method)">Ver más</button>
+            </p>
+        </div>
     </div>
+
     <button class="btn btn-primary m-5" (click)="fnReset()">Generar nueva encuesta</button>
 </div>
