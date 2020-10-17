@@ -1,5 +1,7 @@
 # ExpertSystem
 
+This project was developed by Moisés Laris Santos, Diana Paula Tinoco Quezada y Luis Fernando Guzman García
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7.
 
 ## Development server
