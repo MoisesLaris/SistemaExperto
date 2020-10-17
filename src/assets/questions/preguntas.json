@@ -1,0 +1,440 @@
+[
+    
+    {
+    "sentence": "¿Se aceptan cambios durante el desarrollo?",
+    "options": [
+        {
+            "sentence": "SI",
+            "methodologies": [
+                "AM",
+                "ASD",
+                "AUP",
+                "CAF",
+                "COTS",
+                "CRYSTAL",
+                "DAD",
+                "DESBASCOMP",
+                "DEVOPS",
+                "ENTEVO",
+                "ESP",
+                "ESPRR",
+                "KANBAN",
+                "LSD",
+                "MELE",
+                "MODINC",
+                "MODITE",
+                "OOAD",
+                "OPEN",
+                "PROT",
+                "PROTEVO",
+                "RAD",
+                "SCRUM",
+                "SCRUMBAN",
+                "TDP",
+                "XP"
+            ]
+        },
+        {
+            "sentence": "NO",
+            "methodologies": [
+                "CAS",
+                "CASINC",
+                "CASPROT",
+                "CASSUB",
+                "DSDM",
+                "ENTPET",
+                "FDD",
+                "MV",
+                "PUDS",
+                "ZAVE"
+            ]
+        }
+    ],
+    "title": "1"
+},
+{
+    "sentence": "¿Tu equipo de trabajo es muy dedicado?",
+    "options": [
+        {
+            "sentence": "SI",
+            "methodologies": [
+                "TDP",
+                "AM",
+                "CRYSTAL",
+                "CAS",
+                "SAS",
+                "PUDS",
+                "MODINC",
+                "OOAD",
+                "ENTPET",
+                "ZAVE",
+                "RAD",
+                "ESPRR",
+                "ESP",
+                "ENTEVO",
+                "SCRUMBAN",
+                "LSD",
+                "DEVOPS",
+                "AUP",
+                "OPEN"
+            ]
+        },
+        {
+            "sentence": "NO",
+            "methodologies": [
+                "CAF",
+                "CAS ",
+                "CASSUB",
+                "CASINC",
+                "DESBASCOMP",
+                "COTS",
+                "DPP",
+                "MV",
+                "MODITE",
+                "PROT",
+                "PROTEVO",
+                "CASPROT",
+                "XP",
+                "ASD",
+                "DSDM",
+                "MELE",
+                "FDD",
+                "KANBAN",
+                "SCRUM",
+                "DAD"
+            ]
+        }
+    ],
+    "title": "2"
+},
+{
+    "sentence": "¿El tiempo de desarrollo es limitado?",
+    "options": [
+        {
+            "sentence": "SI",
+            "methodologies": [
+                "PUDS",
+                "ASD",
+                "CAS",
+                "MODINC",
+                "CASINC",
+                "ENTPET",
+                "RAD",
+                "DPP",
+                "MV",
+                "PROTEVO",
+                "ESPRR",
+                "XP",
+                "DSDM",
+                "CRYSTAL",
+                "AM",
+                "SCRUMBAN",
+                "LSD",
+                "DEVOPS",
+                "AUP",
+                "OPEN"
+            ]
+        },
+        {
+            "sentence": "NO",
+            "methodologies": [
+                "DESBASCOMP",
+                "TDP ",
+                "FDD",
+                "CASPROT",
+                "CAF ",
+                "MODITE",
+                "SAS",
+                "KANBAN",
+                "RAD",
+                "MELE",
+                "PROT",
+                "OOAD",
+                "COTS",
+                "ZAVE",
+                "ESP",
+                "ENTEVO",
+                "SCRUM",
+                "CASSUB",
+                "DAD"
+            ]
+        }
+    ],
+    "title": "3"
+},
+{
+    "sentence": "¿El software requiere de una planeación que abarque todos los campos posibles?",
+    "options": [
+        {
+            "sentence": "SI",
+            "methodologies": [
+                "CAF",
+                "TDP ",
+                "ZAVE",
+                "CAS",
+                "MODINC",
+                "FDD",
+                "OOAD",
+                "ENTPET",
+                "RAD",
+                "DPP",
+                "MV",
+                "CASPROT",
+                "ESPRR",
+                "ASD",
+                "SCRUM",
+                "SCRUMBAN",
+                "LSD",
+                "DEVOPS",
+                "AUP",
+                "OPEN"
+            ]
+        },
+        {
+            "sentence": "NO",
+            "methodologies": [
+                "SAS",
+                "KANBAN",
+                "DSDM",
+                "AM",
+                "MELE",
+                "PROTEVO",
+                "CRYSTAL",
+                "MODITE",
+                "PUDS",
+                "CASSUB",
+                "CASINC",
+                "DESBASCOMP",
+                "COTS",
+                "PROT",
+                "ESP",
+                "ENTEVO",
+                "XP",
+                "DAD"
+            ]
+        }
+    ],
+    "title": "4"
+},
+{
+    "sentence": "¿El software tiene requerimientos claros y bien definidos?",
+    "options": [
+        {
+            "sentence": "SI",
+            "methodologies": [
+                "CAS",
+                "PUDS",
+                "CASSUB",
+                "MODINC",
+                "TDP ",
+                "OOAD",
+                "ENTPET",
+                "ZAVE",
+                "RAD",
+                "DPP",
+                "MV",
+                "CASPROT",
+                "ESPRR",
+                "ASD",
+                "FDD",
+                "KANBAN",
+                "DEVOPS",
+                "DAD"
+            ]
+        },
+        {
+            "sentence": "NO",
+            "methodologies": [
+                "CAF",
+                "XP",
+                "CRYSTAL",
+                "SAS",
+                "MODITE",
+                "CASINC",
+                "DESBASCOMP",
+                "AM",
+                "PROT",
+                "COTS",
+                "PROTEVO",
+                "ESP",
+                "ENTEVO",
+                "DSDM",
+                "SCRUM",
+                "SCRUMBAN",
+                "LSD",
+                "AUP",
+                "OPEN",
+                "MELE"
+            ]
+        }
+    ],
+    "title": "5"
+},
+{
+    "sentence": "¿Ocupas documentación que fundamente todas las acciones del desarrollo?",
+    "options": [
+        {
+            "sentence": "SI",
+            "methodologies": [
+                "CAS",
+                "PUDS",
+                "CASSUB",
+                "MODINC",
+                "TDP ",
+                "CASINC",
+                "DESBASCOMP",
+                "OOAD",
+                "ENTPET",
+                "ZAVE",
+                "RAD",
+                "DPP",
+                "MV",
+                "ASD",
+                "PROT",
+                "ESPRR",
+                "ESP",
+                "ENTEVO",
+                "XP",
+                "FDD",
+                "DSDM",
+                "KANBAN",
+                "SCRUMBAN",
+                "LSD",
+                "DEVOPS",
+                "AUP",
+                "DAD",
+                "MELE",
+                "OPEN"
+            ]
+        },
+        {
+            "sentence": "NO",
+            "methodologies": [
+                "CAF ",
+                "CRYSTAL",
+                "CASPROT",
+                "SAS",
+                "MODITE",
+                "COTS",
+                "AM",
+                "SCRUM",
+                "PROTEVO"
+            ]
+        }
+    ],
+    "title": "6"
+},
+{
+    "sentence": "¿Cual es el tamaño del proyecto, chico, mediano o grande?",
+    "options": [
+        {
+            "sentence": "CHICO",
+            "methodologies": [
+                "CASSUB",
+                "CAS",
+                "PUDS",
+                "MV",
+                "MODITE",
+                "PROT",
+                "CASPROT",
+                "XP",
+                "ASD",
+                "DSDM",
+                "CRYSTAL",
+                "AM",
+                "LSD",
+                "TDP "
+            ]
+        },
+        {
+            "sentence": "MEDIANO",
+            "methodologies": [
+                "SAS",
+                "CASINC",
+                "DESBASCOMP",
+                "COTS",
+                "DPP",
+                "ZAVE",
+                "ESP",
+                "ENTEVO",
+                "MELE",
+                "FDD",
+                "KANBAN",
+                "SCRUM",
+                "SCRUMBAN",
+                "DAD",
+                "OPEN"
+            ]
+        },
+        {
+            "sentence": "GRANDE",
+            "methodologies": [
+                "OOAD",
+                "CAF",
+                "MODINC",
+                "ENTPET",
+                "RAD",
+                "PROTEVO",
+                "ESPRR",
+                "DEVOPS",
+                "AUP"
+            ]
+        }
+    ],
+    "title": "7"
+},
+{
+    "sentence": "¿Tu equipo de trabajo es muy dedicado?",
+    "options": [
+        {
+            "sentence": "SI",
+            "methodologies": [
+                "CAF",
+                "SAS",
+                "COTS",
+                "ENTPET",
+                "DPP",
+                "MV",
+                "CASPROT",
+                "MELE",
+                "CRYSTAL",
+                "LSD"
+            ]
+        },
+        {
+            "sentence": "NO",
+            "methodologies": [
+                "CASSUB",
+                "TDP ",
+                "AM",
+                "FDD",
+                "DSDM",
+                "ASD",
+                "XP",
+                "PROTEVO",
+                "MODITE",
+                "RAD",
+                "PUDS",
+                "MODINC",
+                "CASINC",
+                "DESBASCOMP",
+                "OOAD",
+                "ZAVE",
+                "PROT",
+                "ESPRR",
+                "ESP",
+                "ENTEVO",
+                "KANBAN",
+                "SCRUM",
+                "SCRUMBAN",
+                "DEVOPS",
+                "AUP",
+                "DAD",
+                "OPEN"
+            ]
+        }
+    ],
+    "title": "8"
+}
+]
+
